@@ -97,10 +97,11 @@
   margin-bottom: 12px;
 }
 .content__online{
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 44px;
-  text-decoration: underline;
+  border-radius: 13px;
+
 }
 .content__line{
   margin-bottom: 14px;
@@ -111,6 +112,7 @@
   border-radius: 5px;
   background: linear-gradient(120.79deg,#FFAC8B 31.33%, #FF4900 101.79%);
 }
+
 .button{
   padding: 14px 38px;
   background: linear-gradient(98.89deg, #FF9B05 25.06%, #FF8F3F 88.94%);
@@ -262,6 +264,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow:  0px 0px 0px #fcfcfc,
+               -0px -0px 0px #ffffff;
 }
 .card__image{
   width: 50px;
@@ -328,7 +334,7 @@
   color: #252b31;
 }
 .contact__title{
-  font-size: 28px;
+  font-size: 23px;
   font-weight: 800;
   margin-bottom: 30px;
 }
@@ -348,7 +354,10 @@
   text-align: center;
   margin-bottom: 40px;
   padding: 24px;
-  box-shadow: 5px 5px 24px rgba(0,0,0,0.2);
+  border-radius: 24px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow:  33px 33px 100px #9e9e9e,
+               -33px -33px 100px #ffffff;
 }
 
 /*                                 footer                      */
