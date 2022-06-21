@@ -12,6 +12,7 @@
   .header__container{
     padding: 24px 0;
   }
+
   .burger{
     display: none;
   }
@@ -125,3 +126,4 @@
     min-width: 1200px;
   }
 }
+

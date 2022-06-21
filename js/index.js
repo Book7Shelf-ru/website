@@ -5,7 +5,7 @@ brg.addEventListener('click', () =>{
   brg.classList.toggle('burger__active')
   document.querySelector('.nav__links').classList.toggle('nav__links-active')
 })
-fetch('https://api.mcsrvstat.us/2/book7shelf.ru').then((response) => { 
+fetch('https://api.mcsrvstat.us/2/book7shelf.r2u').then((response) => {
   return response.json();
 }).then((data) =>{ 
   if (data.online) {

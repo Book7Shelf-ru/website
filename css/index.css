@@ -373,3 +373,47 @@
   font-size: 15px;
   font-weight: 600;
 }
+
+/*                        Loading                     */
+
+/* From uiverse.io by @satyamchaudharydev */
+.loader {
+ --height-of-loader: 5px;
+ --loader-color: #cf443a;
+   margin-bottom: 14px;
+   height: 4px;
+   position: relative;
+   width: 20%;
+   left: 0%;
+   border-radius: 5px;
+ width: 50%;
+ height: var(--height-of-loader);
+ border-radius: 30px;
+ background-color: rgba(0,0,0,0.2);
+ position: relative;
+}
+
+.loader::before {
+ content: "";
+ position: absolute;
+ background: var(--loader-color);
+ top: 0;
+ left: 0;
+ width: 0%;
+ height: 100%;
+ border-radius: 30px;
+ animation: moving 1s ease-in-out infinite;
+ ;
+}
+
+@keyframes moving {
+ 50% {
+  width: 100%;
+ }
+
+ 100% {
+  width: 0;
+  right: 0;
+  left: unset;
+ }
+}
