@@ -15,17 +15,41 @@ fetch('https://api.mcsrvstat.us/2/book7shelf.ru ').then((response) => {
   }
 });
 
-const swiper = new Swiper('.swiper', { 
+const swiper = new Swiper('.revSwiper', { 
   // Optional parameters 
   direction: 'horizontal',
   effect: "cards",
   grabCursor: true,
   loop: true, 
   // If we need pagination 
-  pagination: { el: '.swiper-pagination', }, 
+  pagination: { el: '.revSwiper .swiper-pagination', }, 
   // Navigation arrows 
-  navigation: { nextEl: '.swiper-button-next',
-  prevEl: '.swiper-button-prev', }
+  navigation: { 
+    nextEl: '.revSwiper .swiper-button-next',
+  prevEl: '.revSwiper .swiper-button-prev', }
   // And if we need scrollbar 
   
 });
+var swiperDev = new Swiper(".devSwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      enteredSlides: true,
+      slidesPerView: "auto",
+      navigation: {
+        nextEl: '.devSwiper .swiper-button-next', 
+        prevEl: '.devSwiper .swiper-button-prev', 
+      },
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+      slideShadows: true,
+      },
+      pagination: {
+      el: ".devSwiper .swiper-pagination",
+    }
+});
+
+
+
