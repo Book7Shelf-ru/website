@@ -68,7 +68,7 @@
   transition: all 0.3s ease;
 }
 .link{
-  color: #ffffff;
+  color: #262626;
   font-size: 17px;
 }
 .link:hover{
@@ -192,6 +192,7 @@
   margin-bottom: 30px;
 }
 .title{
+  text-align: center;
   position: relative;
 }
 .title:after{
@@ -218,7 +219,7 @@
 }
 .main__content{
   padding: 0 20px;
-  text-align: center;
+  text-align: center
 }
 .main__item{
   text-align: left;
@@ -380,7 +381,7 @@
 .loader {
  --height-of-loader: 5px;
  --loader-color: #cf443a;
-   margin-bottom: 14px;
+   margin: 0 auto;
    height: 4px;
    position: relative;
    width: 20%;

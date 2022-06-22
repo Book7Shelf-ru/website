@@ -33,6 +33,7 @@
     left: 0;
   }
   .link{
+    color: #fff;
     margin-left: 24px;
     font-weight: 600;
   }
@@ -78,6 +79,9 @@
   .main__online, .main__content{
     flex: 0 0 50%;
   }
+  .main__content{
+    text-align: left;
+  }
   .swiper{
     width: 500px;
   }
@@ -112,6 +116,12 @@
   }
   .footer{
     padding: 32px;
+  }
+  
+  
+  
+  .loader{
+    margin:14px 0;
   }
 } 
 /*// Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше) */
